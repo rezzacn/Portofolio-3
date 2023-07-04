@@ -1,0 +1,148 @@
+:root {
+  --mainColor: #164b60;
+  --secondaryColor: #1b6b93;
+  --acsentColor: #ffa41b;
+}
+
+body {
+  background-color: var(--mainColor);
+  min-height: 900px;
+  font-family: 'Ubuntu', sans-serif;
+}
+/* Act Start */
+.color-acsent {
+  color: var(--acsentColor);
+  font-weight: 300;
+}
+/* Act End */
+
+/* Navbar Start */
+nav {
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: var(--mainColor);
+}
+nav li {
+  color: white;
+  transition: 1s;
+}
+nav li:hover {
+  background-color: var(--acsentColor);
+  border-radius: 10%;
+}
+
+.nav-link.active {
+  color: var(--acsentColor) !important;
+  font-weight: 700;
+}
+/* Navbar End */
+
+/* Hero Start */
+#hero {
+  padding-top: 100px;
+}
+
+#hero h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+#hero p {
+  font-size: 1rem;
+}
+
+#hero img {
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 5%;
+  border-bottom-left-radius: 10%;
+  width: 70%;
+}
+
+.btn-custom1 {
+  background-color: var(--acsentColor);
+}
+.btn-custom1:hover {
+  box-shadow: 0 0 5px rgba(255, 166, 0, 0.8);
+}
+/* Hero End */
+
+/* About Start*/
+#about {
+  min-height: 300px;
+  width: 100%;
+  padding-top: 80px;
+  background-color: var(--secondaryColor);
+}
+
+#about h1 {
+  color: white;
+  font-size: 2rem;
+}
+
+#about p {
+  color: white;
+  font-size: 15px;
+}
+/* About End*/
+
+/* Project Start */
+#project {
+  min-height: 300px;
+  width: 100%;
+  padding-top: 80px;
+  background-color: var(--mainColor);
+}
+
+#project h1 {
+  color: white;
+  font-size: 2rem;
+}
+#project .card {
+  transition: 0.5s ease-in;
+}
+#project .card:hover {
+  background-color: var(--acsentColor);
+}
+
+.btn-project {
+  background-color: var(--secondaryColor);
+  color: white;
+}
+
+.btn-project:hover {
+  box-shadow: 0 0 5px rgba(27, 107, 147, 0.8);
+}
+
+/* Project End */
+
+/* Skill Start */
+#skill {
+  min-height: 300px;
+  width: 100%;
+  padding-top: 80px;
+  background-color: var(--secondaryColor);
+}
+
+#skill h1 {
+  color: white;
+  font-size: 2rem;
+}
+
+#skill img {
+  width: 10%;
+  margin: 10px;
+}
+/* Skill End */
+
+/* Footer Start */
+footer {
+  margin-right: 0.7rem;
+  margin-bottom: 10px;
+}
+footer p {
+  color: white;
+  font-weight: 300;
+}
+/* Footer End */
