@@ -104,6 +104,7 @@ nav li:hover {
 }
 #project .card:hover {
   background-color: var(--acsentColor);
+  cursor: pointer;
 }
 
 .btn-project {
