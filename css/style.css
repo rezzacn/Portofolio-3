@@ -66,6 +66,17 @@ nav li:hover {
 .btn-custom1:hover {
   box-shadow: 0 0 5px rgba(255, 166, 0, 0.8);
 }
+
+.hero-sosmed a {
+  font-size: 1.8rem;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+.hero-sosmed a:hover {
+  color: var(--acsentColor);
+}
 /* Hero End */
 
 /* About Start*/
